@@ -124,6 +124,24 @@
             }
         });
 
+        $("#boxscroll-11").niceScroll("#boxscroll-in-11", {
+            cursorcolor: "#000",
+            cursoropacitymax: 0.5,
+            cursorwidth: "6px",
+            cursorborder: "0px solid #fff",
+            dblclickzoom: false,
+            scrollspeed: 60,
+            mousescrollstep: 60,
+            autohidemode: false,
+            bouncescroll: false,
+            railpadding: {
+                top: 20,
+                right: 5,
+                left: 0,
+                bottom: 20
+            }
+        });
+
 
         //Countdown
 
